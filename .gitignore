@@ -1,0 +1,35 @@
+# ============================================================
+# .gitignore — Archiver Agent
+# ============================================================
+# Protect private keys and environment files
+# ============================================================
+
+# Environment variables (contains private key)
+.env
+
+# Puzzle seed — contains current solveable nonce!
+# Pushing this allows others to steal your mint!
+skill.md
+skill.md.lock
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Lock files (runtime created)
+*.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
